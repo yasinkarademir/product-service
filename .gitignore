@@ -1,0 +1,39 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Project build output
+/out/
+
+# Compiled Kotlin files
+/build/
+*.class
+
+# Gradle specific files
+.gradle/
+!gradle-wrapper.jar
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.jar
+*.war
+*.ear
+
+# Kotlin specific files
+*.kotlin_module
