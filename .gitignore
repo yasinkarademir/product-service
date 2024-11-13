@@ -22,9 +22,14 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
+!.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+**/.mvn/wrapper
 
 # Log files
 *.log
+logs/
 
 # OS-specific files
 .DS_Store
@@ -37,3 +42,21 @@ Thumbs.db
 
 # Kotlin specific files
 *.kotlin_module
+
+# Java
+
+# Spring Boot
+*.pid
+*.gz
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Gradle
+build/
+
+# Others
+*.swp
+*~
